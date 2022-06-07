@@ -38,6 +38,7 @@ async function run() {
   }
 }
 run().catch(console.dir);
+// a lot of thing remain
 
 app.get("/", (req, res) => {
   res.send("hello from GymEquHub");
